@@ -19,10 +19,42 @@
     // Do any additional setup after loading the view.
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:YES];
+}
+
+- (void)viewWillLayoutSubviews {
+    [super viewWillLayoutSubviews];
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+}
+
+//only now user sees the screen
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:YES];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:YES];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:YES];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)modalViewCancelButton:(id *)sender {
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+#pragma mark - Buttons
 
 /*
 #pragma mark - Navigation

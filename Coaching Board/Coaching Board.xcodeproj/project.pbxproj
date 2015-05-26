@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05F39DE21B14796400651DFB /* CBBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F39DE11B14796400651DFB /* CBBoardViewController.m */; };
+		05F39DE51B14798800651DFB /* CBSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F39DE41B14798800651DFB /* CBSettingsViewController.m */; };
+		05F39DE81B148B0B00651DFB /* CBSettingsSportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F39DE71B148B0B00651DFB /* CBSettingsSportViewController.m */; };
+		05F39DEB1B148B2000651DFB /* CBSettingsStandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F39DEA1B148B2000651DFB /* CBSettingsStandingViewController.m */; };
+		05F39DEE1B148B4100651DFB /* CBSettingsPlayersColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F39DED1B148B4100651DFB /* CBSettingsPlayersColorViewController.m */; };
 		05F4FBEC1B1256AB00306657 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F4FBEB1B1256AB00306657 /* main.m */; };
 		05F4FBEF1B1256AB00306657 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F4FBEE1B1256AB00306657 /* AppDelegate.m */; };
 		05F4FBF21B1256AB00306657 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F4FBF11B1256AB00306657 /* ViewController.m */; };
@@ -27,6 +32,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05F39DE01B14796400651DFB /* CBBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBBoardViewController.h; sourceTree = "<group>"; };
+		05F39DE11B14796400651DFB /* CBBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBBoardViewController.m; sourceTree = "<group>"; };
+		05F39DE31B14798800651DFB /* CBSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSettingsViewController.h; sourceTree = "<group>"; };
+		05F39DE41B14798800651DFB /* CBSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSettingsViewController.m; sourceTree = "<group>"; };
+		05F39DE61B148B0B00651DFB /* CBSettingsSportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSettingsSportViewController.h; sourceTree = "<group>"; };
+		05F39DE71B148B0B00651DFB /* CBSettingsSportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSettingsSportViewController.m; sourceTree = "<group>"; };
+		05F39DE91B148B2000651DFB /* CBSettingsStandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSettingsStandingViewController.h; sourceTree = "<group>"; };
+		05F39DEA1B148B2000651DFB /* CBSettingsStandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSettingsStandingViewController.m; sourceTree = "<group>"; };
+		05F39DEC1B148B4100651DFB /* CBSettingsPlayersColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSettingsPlayersColorViewController.h; sourceTree = "<group>"; };
+		05F39DED1B148B4100651DFB /* CBSettingsPlayersColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSettingsPlayersColorViewController.m; sourceTree = "<group>"; };
 		05F4FBE61B1256AB00306657 /* Coaching Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coaching Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F4FBEA1B1256AB00306657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05F4FBEB1B1256AB00306657 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,8 +98,7 @@
 			children = (
 				05F4FBED1B1256AB00306657 /* AppDelegate.h */,
 				05F4FBEE1B1256AB00306657 /* AppDelegate.m */,
-				05F4FBF01B1256AB00306657 /* ViewController.h */,
-				05F4FBF11B1256AB00306657 /* ViewController.m */,
+				05F4FC0F1B1256D900306657 /* Controller */,
 				05F4FBF31B1256AB00306657 /* Main.storyboard */,
 				05F4FBF61B1256AB00306657 /* Images.xcassets */,
 				05F4FBF81B1256AB00306657 /* LaunchScreen.xib */,
@@ -117,6 +131,25 @@
 				05F4FC041B1256AB00306657 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05F4FC0F1B1256D900306657 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05F4FBF01B1256AB00306657 /* ViewController.h */,
+				05F4FBF11B1256AB00306657 /* ViewController.m */,
+				05F39DE01B14796400651DFB /* CBBoardViewController.h */,
+				05F39DE11B14796400651DFB /* CBBoardViewController.m */,
+				05F39DE31B14798800651DFB /* CBSettingsViewController.h */,
+				05F39DE41B14798800651DFB /* CBSettingsViewController.m */,
+				05F39DE61B148B0B00651DFB /* CBSettingsSportViewController.h */,
+				05F39DE71B148B0B00651DFB /* CBSettingsSportViewController.m */,
+				05F39DE91B148B2000651DFB /* CBSettingsStandingViewController.h */,
+				05F39DEA1B148B2000651DFB /* CBSettingsStandingViewController.m */,
+				05F39DEC1B148B4100651DFB /* CBSettingsPlayersColorViewController.h */,
+				05F39DED1B148B4100651DFB /* CBSettingsPlayersColorViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +254,11 @@
 			files = (
 				05F4FBF21B1256AB00306657 /* ViewController.m in Sources */,
 				05F4FBEF1B1256AB00306657 /* AppDelegate.m in Sources */,
+				05F39DEB1B148B2000651DFB /* CBSettingsStandingViewController.m in Sources */,
+				05F39DE21B14796400651DFB /* CBBoardViewController.m in Sources */,
+				05F39DE81B148B0B00651DFB /* CBSettingsSportViewController.m in Sources */,
+				05F39DEE1B148B4100651DFB /* CBSettingsPlayersColorViewController.m in Sources */,
+				05F39DE51B14798800651DFB /* CBSettingsViewController.m in Sources */,
 				05F4FBEC1B1256AB00306657 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +456,7 @@
 				05F4FC0B1B1256AB00306657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05F4FC0C1B1256AB00306657 /* Build configuration list for PBXNativeTarget "Coaching BoardTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +465,7 @@
 				05F4FC0E1B1256AB00306657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
