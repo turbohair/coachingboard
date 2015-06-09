@@ -7,65 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05F39DE21B14796400651DFB /* CBBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F39DE11B14796400651DFB /* CBBoardViewController.m */; };
-		05F39DE51B14798800651DFB /* CBSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F39DE41B14798800651DFB /* CBSettingsViewController.m */; };
-		05F39DE81B148B0B00651DFB /* CBSettingsSportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F39DE71B148B0B00651DFB /* CBSettingsSportViewController.m */; };
-		05F39DEB1B148B2000651DFB /* CBSettingsStandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F39DEA1B148B2000651DFB /* CBSettingsStandingViewController.m */; };
-		05F39DEE1B148B4100651DFB /* CBSettingsPlayersColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F39DED1B148B4100651DFB /* CBSettingsPlayersColorViewController.m */; };
-		05F4FBEC1B1256AB00306657 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F4FBEB1B1256AB00306657 /* main.m */; };
-		05F4FBEF1B1256AB00306657 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F4FBEE1B1256AB00306657 /* AppDelegate.m */; };
-		05F4FBF21B1256AB00306657 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F4FBF11B1256AB00306657 /* ViewController.m */; };
-		05F4FBF51B1256AB00306657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F4FBF31B1256AB00306657 /* Main.storyboard */; };
-		05F4FBF71B1256AB00306657 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F4FBF61B1256AB00306657 /* Images.xcassets */; };
-		05F4FBFA1B1256AB00306657 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F4FBF81B1256AB00306657 /* LaunchScreen.xib */; };
-		05F4FC061B1256AB00306657 /* Coaching_BoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F4FC051B1256AB00306657 /* Coaching_BoardTests.m */; };
+		05303FE61B23313800FE4C82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05303FE51B23313800FE4C82 /* main.m */; };
+		05303FE91B23313800FE4C82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05303FE81B23313800FE4C82 /* AppDelegate.m */; };
+		05303FEC1B23313800FE4C82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05303FEB1B23313800FE4C82 /* ViewController.m */; };
+		05303FEF1B23313800FE4C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05303FED1B23313800FE4C82 /* Main.storyboard */; };
+		05303FF11B23313800FE4C82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05303FF01B23313800FE4C82 /* Images.xcassets */; };
+		05303FF41B23313800FE4C82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05303FF21B23313800FE4C82 /* LaunchScreen.xib */; };
+		053040001B23313900FE4C82 /* Coaching_BoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05303FFF1B23313900FE4C82 /* Coaching_BoardTests.m */; };
+		0530400C1B23328200FE4C82 /* CBBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0530400B1B23328200FE4C82 /* CBBoardViewController.m */; };
+		0530400F1B23383D00FE4C82 /* CBChipUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0530400E1B23383D00FE4C82 /* CBChipUIView.m */; };
+		053040131B23471D00FE4C82 /* CBSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 053040121B23471D00FE4C82 /* CBSettingsViewController.m */; };
+		053040151B25F0AB00FE4C82 /* futsalChips.plist in Resources */ = {isa = PBXBuildFile; fileRef = 053040141B25F0AB00FE4C82 /* futsalChips.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		05F4FC001B1256AB00306657 /* PBXContainerItemProxy */ = {
+		05303FFA1B23313900FE4C82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 05F4FBDE1B1256AB00306657 /* Project object */;
+			containerPortal = 05303FD81B23313800FE4C82 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 05F4FBE51B1256AB00306657;
+			remoteGlobalIDString = 05303FDF1B23313800FE4C82;
 			remoteInfo = "Coaching Board";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05F39DE01B14796400651DFB /* CBBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBBoardViewController.h; sourceTree = "<group>"; };
-		05F39DE11B14796400651DFB /* CBBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBBoardViewController.m; sourceTree = "<group>"; };
-		05F39DE31B14798800651DFB /* CBSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSettingsViewController.h; sourceTree = "<group>"; };
-		05F39DE41B14798800651DFB /* CBSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSettingsViewController.m; sourceTree = "<group>"; };
-		05F39DE61B148B0B00651DFB /* CBSettingsSportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSettingsSportViewController.h; sourceTree = "<group>"; };
-		05F39DE71B148B0B00651DFB /* CBSettingsSportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSettingsSportViewController.m; sourceTree = "<group>"; };
-		05F39DE91B148B2000651DFB /* CBSettingsStandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSettingsStandingViewController.h; sourceTree = "<group>"; };
-		05F39DEA1B148B2000651DFB /* CBSettingsStandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSettingsStandingViewController.m; sourceTree = "<group>"; };
-		05F39DEC1B148B4100651DFB /* CBSettingsPlayersColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSettingsPlayersColorViewController.h; sourceTree = "<group>"; };
-		05F39DED1B148B4100651DFB /* CBSettingsPlayersColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSettingsPlayersColorViewController.m; sourceTree = "<group>"; };
-		05F4FBE61B1256AB00306657 /* Coaching Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coaching Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05F4FBEA1B1256AB00306657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05F4FBEB1B1256AB00306657 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		05F4FBED1B1256AB00306657 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		05F4FBEE1B1256AB00306657 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		05F4FBF01B1256AB00306657 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		05F4FBF11B1256AB00306657 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		05F4FBF41B1256AB00306657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		05F4FBF61B1256AB00306657 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		05F4FBF91B1256AB00306657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		05F4FBFF1B1256AB00306657 /* Coaching BoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coaching BoardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05F4FC041B1256AB00306657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05F4FC051B1256AB00306657 /* Coaching_BoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coaching_BoardTests.m; sourceTree = "<group>"; };
+		05303FE01B23313800FE4C82 /* Coaching Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coaching Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05303FE41B23313800FE4C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05303FE51B23313800FE4C82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05303FE71B23313800FE4C82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05303FE81B23313800FE4C82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05303FEA1B23313800FE4C82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		05303FEB1B23313800FE4C82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05303FEE1B23313800FE4C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05303FF01B23313800FE4C82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05303FF31B23313800FE4C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		05303FF91B23313900FE4C82 /* Coaching BoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coaching BoardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05303FFE1B23313900FE4C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05303FFF1B23313900FE4C82 /* Coaching_BoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coaching_BoardTests.m; sourceTree = "<group>"; };
+		0530400A1B23328200FE4C82 /* CBBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBBoardViewController.h; sourceTree = "<group>"; };
+		0530400B1B23328200FE4C82 /* CBBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBBoardViewController.m; sourceTree = "<group>"; };
+		0530400D1B23383D00FE4C82 /* CBChipUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBChipUIView.h; sourceTree = "<group>"; };
+		0530400E1B23383D00FE4C82 /* CBChipUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBChipUIView.m; sourceTree = "<group>"; };
+		053040111B23471D00FE4C82 /* CBSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSettingsViewController.h; sourceTree = "<group>"; };
+		053040121B23471D00FE4C82 /* CBSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSettingsViewController.m; sourceTree = "<group>"; };
+		053040141B25F0AB00FE4C82 /* futsalChips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = futsalChips.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05F4FBE31B1256AB00306657 /* Frameworks */ = {
+		05303FDD1B23313800FE4C82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		05F4FBFC1B1256AB00306657 /* Frameworks */ = {
+		05303FF61B23313900FE4C82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,93 +71,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05F4FBDD1B1256AB00306657 = {
+		05303FD71B23313800FE4C82 = {
 			isa = PBXGroup;
 			children = (
-				05F4FBE81B1256AB00306657 /* Coaching Board */,
-				05F4FC021B1256AB00306657 /* Coaching BoardTests */,
-				05F4FBE71B1256AB00306657 /* Products */,
+				05303FE21B23313800FE4C82 /* Coaching Board */,
+				05303FFC1B23313900FE4C82 /* Coaching BoardTests */,
+				05303FE11B23313800FE4C82 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		05F4FBE71B1256AB00306657 /* Products */ = {
+		05303FE11B23313800FE4C82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05F4FBE61B1256AB00306657 /* Coaching Board.app */,
-				05F4FBFF1B1256AB00306657 /* Coaching BoardTests.xctest */,
+				05303FE01B23313800FE4C82 /* Coaching Board.app */,
+				05303FF91B23313900FE4C82 /* Coaching BoardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		05F4FBE81B1256AB00306657 /* Coaching Board */ = {
+		05303FE21B23313800FE4C82 /* Coaching Board */ = {
 			isa = PBXGroup;
 			children = (
-				05F4FBED1B1256AB00306657 /* AppDelegate.h */,
-				05F4FBEE1B1256AB00306657 /* AppDelegate.m */,
-				05F4FC0F1B1256D900306657 /* Controller */,
-				05F4FBF31B1256AB00306657 /* Main.storyboard */,
-				05F4FBF61B1256AB00306657 /* Images.xcassets */,
-				05F4FBF81B1256AB00306657 /* LaunchScreen.xib */,
-				05F4FBE91B1256AB00306657 /* Supporting Files */,
+				05303FE71B23313800FE4C82 /* AppDelegate.h */,
+				05303FE81B23313800FE4C82 /* AppDelegate.m */,
+				053040091B23314400FE4C82 /* ViewController */,
+				05303FED1B23313800FE4C82 /* Main.storyboard */,
+				05303FF01B23313800FE4C82 /* Images.xcassets */,
+				05303FF21B23313800FE4C82 /* LaunchScreen.xib */,
+				053040101B23384400FE4C82 /* View */,
+				05303FE31B23313800FE4C82 /* Supporting Files */,
 			);
 			path = "Coaching Board";
 			sourceTree = "<group>";
 		};
-		05F4FBE91B1256AB00306657 /* Supporting Files */ = {
+		05303FE31B23313800FE4C82 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				05F4FBEA1B1256AB00306657 /* Info.plist */,
-				05F4FBEB1B1256AB00306657 /* main.m */,
+				05303FE41B23313800FE4C82 /* Info.plist */,
+				05303FE51B23313800FE4C82 /* main.m */,
+				053040141B25F0AB00FE4C82 /* futsalChips.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		05F4FC021B1256AB00306657 /* Coaching BoardTests */ = {
+		05303FFC1B23313900FE4C82 /* Coaching BoardTests */ = {
 			isa = PBXGroup;
 			children = (
-				05F4FC051B1256AB00306657 /* Coaching_BoardTests.m */,
-				05F4FC031B1256AB00306657 /* Supporting Files */,
+				05303FFF1B23313900FE4C82 /* Coaching_BoardTests.m */,
+				05303FFD1B23313900FE4C82 /* Supporting Files */,
 			);
 			path = "Coaching BoardTests";
 			sourceTree = "<group>";
 		};
-		05F4FC031B1256AB00306657 /* Supporting Files */ = {
+		05303FFD1B23313900FE4C82 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				05F4FC041B1256AB00306657 /* Info.plist */,
+				05303FFE1B23313900FE4C82 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		05F4FC0F1B1256D900306657 /* Controller */ = {
+		053040091B23314400FE4C82 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				05F4FBF01B1256AB00306657 /* ViewController.h */,
-				05F4FBF11B1256AB00306657 /* ViewController.m */,
-				05F39DE01B14796400651DFB /* CBBoardViewController.h */,
-				05F39DE11B14796400651DFB /* CBBoardViewController.m */,
-				05F39DE31B14798800651DFB /* CBSettingsViewController.h */,
-				05F39DE41B14798800651DFB /* CBSettingsViewController.m */,
-				05F39DE61B148B0B00651DFB /* CBSettingsSportViewController.h */,
-				05F39DE71B148B0B00651DFB /* CBSettingsSportViewController.m */,
-				05F39DE91B148B2000651DFB /* CBSettingsStandingViewController.h */,
-				05F39DEA1B148B2000651DFB /* CBSettingsStandingViewController.m */,
-				05F39DEC1B148B4100651DFB /* CBSettingsPlayersColorViewController.h */,
-				05F39DED1B148B4100651DFB /* CBSettingsPlayersColorViewController.m */,
+				05303FEA1B23313800FE4C82 /* ViewController.h */,
+				05303FEB1B23313800FE4C82 /* ViewController.m */,
+				053040111B23471D00FE4C82 /* CBSettingsViewController.h */,
+				053040121B23471D00FE4C82 /* CBSettingsViewController.m */,
+				0530400A1B23328200FE4C82 /* CBBoardViewController.h */,
+				0530400B1B23328200FE4C82 /* CBBoardViewController.m */,
 			);
-			name = Controller;
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		053040101B23384400FE4C82 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0530400D1B23383D00FE4C82 /* CBChipUIView.h */,
+				0530400E1B23383D00FE4C82 /* CBChipUIView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05F4FBE51B1256AB00306657 /* Coaching Board */ = {
+		05303FDF1B23313800FE4C82 /* Coaching Board */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05F4FC091B1256AB00306657 /* Build configuration list for PBXNativeTarget "Coaching Board" */;
+			buildConfigurationList = 053040031B23313900FE4C82 /* Build configuration list for PBXNativeTarget "Coaching Board" */;
 			buildPhases = (
-				05F4FBE21B1256AB00306657 /* Sources */,
-				05F4FBE31B1256AB00306657 /* Frameworks */,
-				05F4FBE41B1256AB00306657 /* Resources */,
+				05303FDC1B23313800FE4C82 /* Sources */,
+				05303FDD1B23313800FE4C82 /* Frameworks */,
+				05303FDE1B23313800FE4C82 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -169,46 +170,46 @@
 			);
 			name = "Coaching Board";
 			productName = "Coaching Board";
-			productReference = 05F4FBE61B1256AB00306657 /* Coaching Board.app */;
+			productReference = 05303FE01B23313800FE4C82 /* Coaching Board.app */;
 			productType = "com.apple.product-type.application";
 		};
-		05F4FBFE1B1256AB00306657 /* Coaching BoardTests */ = {
+		05303FF81B23313900FE4C82 /* Coaching BoardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05F4FC0C1B1256AB00306657 /* Build configuration list for PBXNativeTarget "Coaching BoardTests" */;
+			buildConfigurationList = 053040061B23313900FE4C82 /* Build configuration list for PBXNativeTarget "Coaching BoardTests" */;
 			buildPhases = (
-				05F4FBFB1B1256AB00306657 /* Sources */,
-				05F4FBFC1B1256AB00306657 /* Frameworks */,
-				05F4FBFD1B1256AB00306657 /* Resources */,
+				05303FF51B23313900FE4C82 /* Sources */,
+				05303FF61B23313900FE4C82 /* Frameworks */,
+				05303FF71B23313900FE4C82 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				05F4FC011B1256AB00306657 /* PBXTargetDependency */,
+				05303FFB1B23313900FE4C82 /* PBXTargetDependency */,
 			);
 			name = "Coaching BoardTests";
 			productName = "Coaching BoardTests";
-			productReference = 05F4FBFF1B1256AB00306657 /* Coaching BoardTests.xctest */;
+			productReference = 05303FF91B23313900FE4C82 /* Coaching BoardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		05F4FBDE1B1256AB00306657 /* Project object */ = {
+		05303FD81B23313800FE4C82 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Oleksii Myronenko";
 				TargetAttributes = {
-					05F4FBE51B1256AB00306657 = {
+					05303FDF1B23313800FE4C82 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					05F4FBFE1B1256AB00306657 = {
+					05303FF81B23313900FE4C82 = {
 						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 05F4FBE51B1256AB00306657;
+						TestTargetID = 05303FDF1B23313800FE4C82;
 					};
 				};
 			};
-			buildConfigurationList = 05F4FBE11B1256AB00306657 /* Build configuration list for PBXProject "Coaching Board" */;
+			buildConfigurationList = 05303FDB1B23313800FE4C82 /* Build configuration list for PBXProject "Coaching Board" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -216,29 +217,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 05F4FBDD1B1256AB00306657;
-			productRefGroup = 05F4FBE71B1256AB00306657 /* Products */;
+			mainGroup = 05303FD71B23313800FE4C82;
+			productRefGroup = 05303FE11B23313800FE4C82 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05F4FBE51B1256AB00306657 /* Coaching Board */,
-				05F4FBFE1B1256AB00306657 /* Coaching BoardTests */,
+				05303FDF1B23313800FE4C82 /* Coaching Board */,
+				05303FF81B23313900FE4C82 /* Coaching BoardTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05F4FBE41B1256AB00306657 /* Resources */ = {
+		05303FDE1B23313800FE4C82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05F4FBF51B1256AB00306657 /* Main.storyboard in Resources */,
-				05F4FBFA1B1256AB00306657 /* LaunchScreen.xib in Resources */,
-				05F4FBF71B1256AB00306657 /* Images.xcassets in Resources */,
+				05303FEF1B23313800FE4C82 /* Main.storyboard in Resources */,
+				053040151B25F0AB00FE4C82 /* futsalChips.plist in Resources */,
+				05303FF41B23313800FE4C82 /* LaunchScreen.xib in Resources */,
+				05303FF11B23313800FE4C82 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		05F4FBFD1B1256AB00306657 /* Resources */ = {
+		05303FF71B23313900FE4C82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -248,52 +250,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05F4FBE21B1256AB00306657 /* Sources */ = {
+		05303FDC1B23313800FE4C82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05F4FBF21B1256AB00306657 /* ViewController.m in Sources */,
-				05F4FBEF1B1256AB00306657 /* AppDelegate.m in Sources */,
-				05F39DEB1B148B2000651DFB /* CBSettingsStandingViewController.m in Sources */,
-				05F39DE21B14796400651DFB /* CBBoardViewController.m in Sources */,
-				05F39DE81B148B0B00651DFB /* CBSettingsSportViewController.m in Sources */,
-				05F39DEE1B148B4100651DFB /* CBSettingsPlayersColorViewController.m in Sources */,
-				05F39DE51B14798800651DFB /* CBSettingsViewController.m in Sources */,
-				05F4FBEC1B1256AB00306657 /* main.m in Sources */,
+				05303FEC1B23313800FE4C82 /* ViewController.m in Sources */,
+				05303FE91B23313800FE4C82 /* AppDelegate.m in Sources */,
+				0530400F1B23383D00FE4C82 /* CBChipUIView.m in Sources */,
+				0530400C1B23328200FE4C82 /* CBBoardViewController.m in Sources */,
+				053040131B23471D00FE4C82 /* CBSettingsViewController.m in Sources */,
+				05303FE61B23313800FE4C82 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		05F4FBFB1B1256AB00306657 /* Sources */ = {
+		05303FF51B23313900FE4C82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05F4FC061B1256AB00306657 /* Coaching_BoardTests.m in Sources */,
+				053040001B23313900FE4C82 /* Coaching_BoardTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		05F4FC011B1256AB00306657 /* PBXTargetDependency */ = {
+		05303FFB1B23313900FE4C82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 05F4FBE51B1256AB00306657 /* Coaching Board */;
-			targetProxy = 05F4FC001B1256AB00306657 /* PBXContainerItemProxy */;
+			target = 05303FDF1B23313800FE4C82 /* Coaching Board */;
+			targetProxy = 05303FFA1B23313900FE4C82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		05F4FBF31B1256AB00306657 /* Main.storyboard */ = {
+		05303FED1B23313800FE4C82 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				05F4FBF41B1256AB00306657 /* Base */,
+				05303FEE1B23313800FE4C82 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		05F4FBF81B1256AB00306657 /* LaunchScreen.xib */ = {
+		05303FF21B23313800FE4C82 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				05F4FBF91B1256AB00306657 /* Base */,
+				05303FF31B23313800FE4C82 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -301,7 +301,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		05F4FC071B1256AB00306657 /* Debug */ = {
+		053040011B23313900FE4C82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -345,7 +345,7 @@
 			};
 			name = Debug;
 		};
-		05F4FC081B1256AB00306657 /* Release */ = {
+		053040021B23313900FE4C82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -383,27 +383,29 @@
 			};
 			name = Release;
 		};
-		05F4FC0A1B1256AB00306657 /* Debug */ = {
+		053040041B23313900FE4C82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Coaching Board/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		05F4FC0B1B1256AB00306657 /* Release */ = {
+		053040051B23313900FE4C82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Coaching Board/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		05F4FC0D1B1256AB00306657 /* Debug */ = {
+		053040071B23313900FE4C82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -422,7 +424,7 @@
 			};
 			name = Debug;
 		};
-		05F4FC0E1B1256AB00306657 /* Release */ = {
+		053040081B23313900FE4C82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -440,34 +442,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05F4FBE11B1256AB00306657 /* Build configuration list for PBXProject "Coaching Board" */ = {
+		05303FDB1B23313800FE4C82 /* Build configuration list for PBXProject "Coaching Board" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05F4FC071B1256AB00306657 /* Debug */,
-				05F4FC081B1256AB00306657 /* Release */,
+				053040011B23313900FE4C82 /* Debug */,
+				053040021B23313900FE4C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05F4FC091B1256AB00306657 /* Build configuration list for PBXNativeTarget "Coaching Board" */ = {
+		053040031B23313900FE4C82 /* Build configuration list for PBXNativeTarget "Coaching Board" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05F4FC0A1B1256AB00306657 /* Debug */,
-				05F4FC0B1B1256AB00306657 /* Release */,
+				053040041B23313900FE4C82 /* Debug */,
+				053040051B23313900FE4C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		05F4FC0C1B1256AB00306657 /* Build configuration list for PBXNativeTarget "Coaching BoardTests" */ = {
+		053040061B23313900FE4C82 /* Build configuration list for PBXNativeTarget "Coaching BoardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05F4FC0D1B1256AB00306657 /* Debug */,
-				05F4FC0E1B1256AB00306657 /* Release */,
+				053040071B23313900FE4C82 /* Debug */,
+				053040081B23313900FE4C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 05F4FBDE1B1256AB00306657 /* Project object */;
+	rootObject = 05303FD81B23313800FE4C82 /* Project object */;
 }

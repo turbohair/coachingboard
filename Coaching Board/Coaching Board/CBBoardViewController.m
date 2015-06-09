@@ -2,7 +2,7 @@
 //  CBBoardViewController.m
 //  Coaching Board
 //
-//  Created by Oleksii Myronenko on 5/26/15.
+//  Created by Oleksii Myronenko on 6/6/15.
 //  Copyright (c) 2015 Oleksii Myronenko. All rights reserved.
 //
 
@@ -14,40 +14,9 @@
 
 @implementation CBBoardViewController
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-}
-
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:YES];
-}
-
-- (void)viewWillLayoutSubviews {
-    [super viewWillLayoutSubviews];
-}
-
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
-}
-
-//only now user sees the screen
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:YES];
-}
-
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:YES];
-}
-
-- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:YES];
-    
-//    [[NSNotificationCenter defaultCenter] removeObserver:<#(id)#>];
 }
 
 - (void)didReceiveMemoryWarning {
