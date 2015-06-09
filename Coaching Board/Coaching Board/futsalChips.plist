@@ -1,5 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<array>
+	<dict>
+		<key>position</key>
+		<string>{{362,512},{44,44}}</string>
+		<key>image</key>
+		<string>footballBall</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>{{100,100},{58,58}}</string>
+		<key>image</key>
+		<string>homeFieldPlayer</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>{{100,100},{58,58}}</string>
+		<key>image</key>
+		<string>homeFieldPlayer</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>{{100,100},{58,58}}</string>
+		<key>image</key>
+		<string>homeFieldPlayer</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>{{100,100},{58,58}}</string>
+		<key>image</key>
+		<string>homeFieldPlayer</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>{{100,100},{58,58}}</string>
+		<key>image</key>
+		<string>homeGoalPlayer</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>{{100,100},{58,58}}</string>
+		<key>image</key>
+		<string>visitorFieldPlayer</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>{{100,100},{58,58}}</string>
+		<key>image</key>
+		<string>visitorFieldPlayer</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>{{100,100},{58,58}}</string>
+		<key>image</key>
+		<string>visitorFieldPlayer</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>{{100,100},{58,58}}</string>
+		<key>image</key>
+		<string>visitorFieldPlayer</string>
+	</dict>
+	<dict>
+		<key>position</key>
+		<string>{{100,100},{58,58}}</string>
+		<key>image</key>
+		<string>visitorGoalPlayer</string>
+	</dict>
+</array>
 </plist>

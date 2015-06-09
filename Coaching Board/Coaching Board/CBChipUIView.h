@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CBChipUIView : UIView
+@protocol CBChipUIViewDelegate;
+@interface CBChipUIView : UIImageView
 
+@end
+
+@protocol CBChipUIViewDelegate <NSObject>
+//@interface CBChipUIView : UIView
+//- (void)draggableViewWillStartDragging:(UIDraggableView *)view;
+//- (void)draggableView:(UIDraggableView *)view  didMoveToPosition:(CGPoint)position;
+//- (void)draggableViewDidEndDragging:(UIDraggableView *)view;
 @end

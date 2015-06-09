@@ -7,6 +7,7 @@
 //
 
 #import "CBBoardViewController.h"
+#import "CBChipUIView.h"
 
 @interface CBBoardViewController ()
 
@@ -17,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+//    CGRect boardRect = CGRectMake(0, 64, 764, 960);
+//    UIView *boardView = [[UIView alloc] initWithFrame:boardRect];
+//    [boardView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"futsalPitch"]]];
+//    [self.view addSubview:boardView];
+    
+    
+    [self showChipsOnBoard];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +33,23 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)showChipsOnBoard
+{
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"futsalChips" ofType:@"plist"];
+    NSArray *chips = [NSArray arrayWithContentsOfFile:filePath];
+    
+    for (NSUInteger i = 0; i < chips.count; i++) {
+        NSDictionary *chip = chips[i];
+        
+        NSString *positionString = chip[@"position"];
+        CGRect frame = CGRectFromString(positionString);
+        
+        NSString *imageName = chip[@"image"];
+        
+        CBChipUIView *chipView = [[CBChipUIView alloc] initWithFrame:frame];
+        chipView.image = [UIImage imageNamed:imageName];
+        [self.view addSubview:chipView];
+    }
 }
-*/
 
 @end
