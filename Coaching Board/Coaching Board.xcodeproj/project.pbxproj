@@ -18,6 +18,7 @@
 		0530400F1B23383D00FE4C82 /* CBChipUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0530400E1B23383D00FE4C82 /* CBChipUIView.m */; };
 		053040131B23471D00FE4C82 /* CBSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 053040121B23471D00FE4C82 /* CBSettingsViewController.m */; };
 		053040151B25F0AB00FE4C82 /* futsalChips.plist in Resources */ = {isa = PBXBuildFile; fileRef = 053040141B25F0AB00FE4C82 /* futsalChips.plist */; };
+		05D005F01B28C7C9002B09F7 /* CBDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D005EF1B28C7C9002B09F7 /* CBDrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		053040111B23471D00FE4C82 /* CBSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSettingsViewController.h; sourceTree = "<group>"; };
 		053040121B23471D00FE4C82 /* CBSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSettingsViewController.m; sourceTree = "<group>"; };
 		053040141B25F0AB00FE4C82 /* futsalChips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = futsalChips.plist; sourceTree = "<group>"; };
+		05D005EE1B28C7C9002B09F7 /* CBDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBDrawingView.h; sourceTree = "<group>"; };
+		05D005EF1B28C7C9002B09F7 /* CBDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +152,8 @@
 			children = (
 				0530400D1B23383D00FE4C82 /* CBChipUIView.h */,
 				0530400E1B23383D00FE4C82 /* CBChipUIView.m */,
+				05D005EE1B28C7C9002B09F7 /* CBDrawingView.h */,
+				05D005EF1B28C7C9002B09F7 /* CBDrawingView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				05303FEC1B23313800FE4C82 /* ViewController.m in Sources */,
 				05303FE91B23313800FE4C82 /* AppDelegate.m in Sources */,
 				0530400F1B23383D00FE4C82 /* CBChipUIView.m in Sources */,
+				05D005F01B28C7C9002B09F7 /* CBDrawingView.m in Sources */,
 				0530400C1B23328200FE4C82 /* CBBoardViewController.m in Sources */,
 				053040131B23471D00FE4C82 /* CBSettingsViewController.m in Sources */,
 				05303FE61B23313800FE4C82 /* main.m in Sources */,
@@ -458,6 +464,7 @@
 				053040051B23313900FE4C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		053040061B23313900FE4C82 /* Build configuration list for PBXNativeTarget "Coaching BoardTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +473,7 @@
 				053040081B23313900FE4C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

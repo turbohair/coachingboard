@@ -4,67 +4,67 @@
 <array>
 	<dict>
 		<key>position</key>
-		<string>{{362,512},{44,44}}</string>
+		<string>{{368,520},{44,44}}</string>
 		<key>image</key>
 		<string>footballBall</string>
 	</dict>
 	<dict>
 		<key>position</key>
-		<string>{{100,100},{58,58}}</string>
+		<string>{{80,330},{58,58}}</string>
 		<key>image</key>
 		<string>homeFieldPlayer</string>
 	</dict>
 	<dict>
 		<key>position</key>
-		<string>{{100,100},{58,58}}</string>
+		<string>{{362,230},{58,58}}</string>
 		<key>image</key>
 		<string>homeFieldPlayer</string>
 	</dict>
 	<dict>
 		<key>position</key>
-		<string>{{100,100},{58,58}}</string>
+		<string>{{362,430},{58,58}}</string>
 		<key>image</key>
 		<string>homeFieldPlayer</string>
 	</dict>
 	<dict>
 		<key>position</key>
-		<string>{{100,100},{58,58}}</string>
+		<string>{{616,330},{58,58}}</string>
 		<key>image</key>
 		<string>homeFieldPlayer</string>
 	</dict>
 	<dict>
 		<key>position</key>
-		<string>{{100,100},{58,58}}</string>
+		<string>{{362,100},{58,58}}</string>
 		<key>image</key>
 		<string>homeGoalPlayer</string>
 	</dict>
 	<dict>
 		<key>position</key>
-		<string>{{100,100},{58,58}}</string>
+		<string>{{80,700},{58,58}}</string>
 		<key>image</key>
 		<string>visitorFieldPlayer</string>
 	</dict>
 	<dict>
 		<key>position</key>
-		<string>{{100,100},{58,58}}</string>
+		<string>{{616,700},{58,58}}</string>
 		<key>image</key>
 		<string>visitorFieldPlayer</string>
 	</dict>
 	<dict>
 		<key>position</key>
-		<string>{{100,100},{58,58}}</string>
+		<string>{{362,600},{58,58}}</string>
 		<key>image</key>
 		<string>visitorFieldPlayer</string>
 	</dict>
 	<dict>
 		<key>position</key>
-		<string>{{100,100},{58,58}}</string>
+		<string>{{362,800},{58,58}}</string>
 		<key>image</key>
 		<string>visitorFieldPlayer</string>
 	</dict>
 	<dict>
 		<key>position</key>
-		<string>{{100,100},{58,58}}</string>
+		<string>{{362,930},{58,58}}</string>
 		<key>image</key>
 		<string>visitorGoalPlayer</string>
 	</dict>

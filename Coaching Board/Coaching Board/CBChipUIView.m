@@ -16,14 +16,14 @@
 
 @implementation CBChipUIView
 
-- (instancetype)initWithCoder:(NSCoder *)aDecoder
-{
-    self = [super initWithCoder:aDecoder];
-    if (self) {
-        [self setupGestures];
-    }
-    return self;
-}
+//- (instancetype)initWithCoder:(NSCoder *)aDecoder
+//{
+//    self = [super initWithCoder:aDecoder];
+//    if (self) {
+//        [self setupGestures];
+//    }
+//    return self;
+//}
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

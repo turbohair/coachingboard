@@ -35,111 +35,10 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="futsalPitch" translatesAutoresizingMaskIntoConstraints="NO" id="mzP-tv-mlE">
                                         <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
                                     </imageView>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nHi-Y2-Afe" customClass="CBChipUIView">
-                                        <rect key="frame" x="190" y="214" width="58" height="58"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homeFieldPlayer" translatesAutoresizingMaskIntoConstraints="NO" id="8s8-hS-TMm">
-                                                <rect key="frame" x="0.0" y="0.0" width="58" height="58"/>
-                                            </imageView>
-                                        </subviews>
-                                        <accessibility key="accessibilityConfiguration">
-                                            <accessibilityTraits key="traits" none="YES" image="YES"/>
-                                        </accessibility>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oy9-94-yXb" customClass="CBChipUIView">
-                                        <rect key="frame" x="355" y="304" width="58" height="58"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homeFieldPlayer" translatesAutoresizingMaskIntoConstraints="NO" id="hU9-rf-cJY">
-                                                <rect key="frame" x="0.0" y="0.0" width="58" height="58"/>
-                                            </imageView>
-                                        </subviews>
-                                        <accessibility key="accessibilityConfiguration">
-                                            <accessibilityTraits key="traits" none="YES" image="YES"/>
-                                        </accessibility>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vMn-cr-lnE" customClass="CBChipUIView">
-                                        <rect key="frame" x="533" y="214" width="58" height="58"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homeFieldPlayer" translatesAutoresizingMaskIntoConstraints="NO" id="oCs-AV-atB">
-                                                <rect key="frame" x="0.0" y="0.0" width="58" height="58"/>
-                                            </imageView>
-                                        </subviews>
-                                        <accessibility key="accessibilityConfiguration">
-                                            <accessibilityTraits key="traits" none="YES" image="YES"/>
-                                        </accessibility>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EzY-z7-ZJa" customClass="CBChipUIView">
-                                        <rect key="frame" x="355" y="121" width="58" height="58"/>
-                                        <subviews>
-                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homeFieldPlayer" translatesAutoresizingMaskIntoConstraints="NO" id="HWN-f1-DC8">
-                                                <rect key="frame" x="0.0" y="0.0" width="58" height="58"/>
-                                                <gestureRecognizers/>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="Wlf-jq-1FB" appends="YES" id="cs8-kV-nz2"/>
-                                                </connections>
-                                            </imageView>
-                                        </subviews>
-                                        <accessibility key="accessibilityConfiguration">
-                                            <accessibilityTraits key="traits" none="YES" image="YES"/>
-                                        </accessibility>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eML-gy-RQu" customClass="CBChipUIView">
-                                        <rect key="frame" x="355" y="871" width="58" height="58"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="visitorGoalPlayer" translatesAutoresizingMaskIntoConstraints="NO" id="ulB-XP-7hf">
-                                                <rect key="frame" x="0.0" y="0.0" width="58" height="58"/>
-                                            </imageView>
-                                        </subviews>
-                                        <accessibility key="accessibilityConfiguration">
-                                            <accessibilityTraits key="traits" none="YES" image="YES"/>
-                                        </accessibility>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ie8-1R-zYu" customClass="CBChipUIView">
-                                        <rect key="frame" x="355" y="537" width="58" height="58"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="visitorFieldPlayer" translatesAutoresizingMaskIntoConstraints="NO" id="Xtj-PK-Z4M">
-                                                <rect key="frame" x="0.0" y="0.0" width="58" height="58"/>
-                                            </imageView>
-                                        </subviews>
-                                        <accessibility key="accessibilityConfiguration">
-                                            <accessibilityTraits key="traits" none="YES" image="YES"/>
-                                        </accessibility>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v2k-Kq-XfF" customClass="CBChipUIView">
-                                        <rect key="frame" x="190" y="670" width="58" height="58"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="visitorFieldPlayer" translatesAutoresizingMaskIntoConstraints="NO" id="CtZ-1X-riD">
-                                                <rect key="frame" x="0.0" y="0.0" width="58" height="58"/>
-                                            </imageView>
-                                        </subviews>
-                                        <accessibility key="accessibilityConfiguration">
-                                            <accessibilityTraits key="traits" none="YES" image="YES"/>
-                                        </accessibility>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="utq-e3-v1E" customClass="CBChipUIView">
-                                        <rect key="frame" x="355" y="770" width="58" height="58"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="visitorFieldPlayer" translatesAutoresizingMaskIntoConstraints="NO" id="FUj-oH-pD6">
-                                                <rect key="frame" x="0.0" y="0.0" width="58" height="58"/>
-                                            </imageView>
-                                        </subviews>
-                                        <accessibility key="accessibilityConfiguration">
-                                            <accessibilityTraits key="traits" none="YES" image="YES"/>
-                                        </accessibility>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wT1-6H-3Qf" customClass="CBChipUIView">
-                                        <rect key="frame" x="533" y="670" width="58" height="58"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="visitorFieldPlayer" translatesAutoresizingMaskIntoConstraints="NO" id="HOQ-nA-ECC">
-                                                <rect key="frame" x="0.0" y="0.0" width="58" height="58"/>
-                                            </imageView>
-                                        </subviews>
-                                        <accessibility key="accessibilityConfiguration">
-                                            <accessibilityTraits key="traits" none="YES" image="YES"/>
-                                        </accessibility>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FXQ-sQ-fNZ" customClass="CBDrawingView">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" image="YES" notEnabled="YES"/>
                                 </accessibility>
@@ -148,6 +47,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="drawingView" destination="FXQ-sQ-fNZ" id="hzM-T2-rED"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="Wlf-jq-1FB">
@@ -171,7 +73,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="JOE-Jf-lDu">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="izK-ps-Gzm"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="izK-ps-Gzm">
+                            <connections>
+                                <action selector="Cancel:" destination="5o2-ah-jd1" id="7ta-sk-Pwi"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="8Qk-uU-Jy4"/>
                     </navigationItem>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -203,8 +109,5 @@
     </scenes>
     <resources>
         <image name="futsalPitch" width="655" height="1280"/>
-        <image name="homeFieldPlayer" width="58" height="58"/>
-        <image name="visitorFieldPlayer" width="58" height="58"/>
-        <image name="visitorGoalPlayer" width="58" height="58"/>
     </resources>
 </document>
