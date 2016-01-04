@@ -13,23 +13,15 @@
 		05303FEF1B23313800FE4C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05303FED1B23313800FE4C82 /* Main.storyboard */; };
 		05303FF11B23313800FE4C82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05303FF01B23313800FE4C82 /* Images.xcassets */; };
 		05303FF41B23313800FE4C82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05303FF21B23313800FE4C82 /* LaunchScreen.xib */; };
-		053040001B23313900FE4C82 /* Coaching_BoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05303FFF1B23313900FE4C82 /* Coaching_BoardTests.m */; };
 		0530400C1B23328200FE4C82 /* CBBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0530400B1B23328200FE4C82 /* CBBoardViewController.m */; };
 		0530400F1B23383D00FE4C82 /* CBChipUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0530400E1B23383D00FE4C82 /* CBChipUIView.m */; };
 		053040131B23471D00FE4C82 /* CBSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 053040121B23471D00FE4C82 /* CBSettingsViewController.m */; };
 		053040151B25F0AB00FE4C82 /* futsalChips.plist in Resources */ = {isa = PBXBuildFile; fileRef = 053040141B25F0AB00FE4C82 /* futsalChips.plist */; };
+		055994211B42D6560041409D /* CBBoardScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 055994201B42D6560041409D /* CBBoardScene.m */; };
+		055994231B42D6D70041409D /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 055994221B42D6D70041409D /* SpriteKit.framework */; };
 		05D005F01B28C7C9002B09F7 /* CBDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D005EF1B28C7C9002B09F7 /* CBDrawingView.m */; };
+		05F948521B44322500F01B36 /* CBChipNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F948511B44322500F01B36 /* CBChipNode.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		05303FFA1B23313900FE4C82 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 05303FD81B23313800FE4C82 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 05303FDF1B23313800FE4C82;
-			remoteInfo = "Coaching Board";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		05303FE01B23313800FE4C82 /* Coaching Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coaching Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,9 +34,6 @@
 		05303FEE1B23313800FE4C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05303FF01B23313800FE4C82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		05303FF31B23313800FE4C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		05303FF91B23313900FE4C82 /* Coaching BoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coaching BoardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05303FFE1B23313900FE4C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05303FFF1B23313900FE4C82 /* Coaching_BoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coaching_BoardTests.m; sourceTree = "<group>"; };
 		0530400A1B23328200FE4C82 /* CBBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBBoardViewController.h; sourceTree = "<group>"; };
 		0530400B1B23328200FE4C82 /* CBBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBBoardViewController.m; sourceTree = "<group>"; };
 		0530400D1B23383D00FE4C82 /* CBChipUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBChipUIView.h; sourceTree = "<group>"; };
@@ -52,8 +41,13 @@
 		053040111B23471D00FE4C82 /* CBSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSettingsViewController.h; sourceTree = "<group>"; };
 		053040121B23471D00FE4C82 /* CBSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSettingsViewController.m; sourceTree = "<group>"; };
 		053040141B25F0AB00FE4C82 /* futsalChips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = futsalChips.plist; sourceTree = "<group>"; };
+		0559941F1B42D6560041409D /* CBBoardScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBBoardScene.h; path = ../CBBoardScene.h; sourceTree = "<group>"; };
+		055994201B42D6560041409D /* CBBoardScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBBoardScene.m; path = ../CBBoardScene.m; sourceTree = "<group>"; };
+		055994221B42D6D70041409D /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		05D005EE1B28C7C9002B09F7 /* CBDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBDrawingView.h; sourceTree = "<group>"; };
 		05D005EF1B28C7C9002B09F7 /* CBDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBDrawingView.m; sourceTree = "<group>"; };
+		05F948501B44322500F01B36 /* CBChipNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBChipNode.h; sourceTree = "<group>"; };
+		05F948511B44322500F01B36 /* CBChipNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBChipNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		05303FF61B23313900FE4C82 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				055994231B42D6D70041409D /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,8 +65,8 @@
 		05303FD71B23313800FE4C82 = {
 			isa = PBXGroup;
 			children = (
+				055994221B42D6D70041409D /* SpriteKit.framework */,
 				05303FE21B23313800FE4C82 /* Coaching Board */,
-				05303FFC1B23313900FE4C82 /* Coaching BoardTests */,
 				05303FE11B23313800FE4C82 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				05303FE01B23313800FE4C82 /* Coaching Board.app */,
-				05303FF91B23313900FE4C82 /* Coaching BoardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,23 +104,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		05303FFC1B23313900FE4C82 /* Coaching BoardTests */ = {
-			isa = PBXGroup;
-			children = (
-				05303FFF1B23313900FE4C82 /* Coaching_BoardTests.m */,
-				05303FFD1B23313900FE4C82 /* Supporting Files */,
-			);
-			path = "Coaching BoardTests";
-			sourceTree = "<group>";
-		};
-		05303FFD1B23313900FE4C82 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				05303FFE1B23313900FE4C82 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		053040091B23314400FE4C82 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,10 +120,14 @@
 		053040101B23384400FE4C82 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0559941F1B42D6560041409D /* CBBoardScene.h */,
+				055994201B42D6560041409D /* CBBoardScene.m */,
 				0530400D1B23383D00FE4C82 /* CBChipUIView.h */,
 				0530400E1B23383D00FE4C82 /* CBChipUIView.m */,
 				05D005EE1B28C7C9002B09F7 /* CBDrawingView.h */,
 				05D005EF1B28C7C9002B09F7 /* CBDrawingView.m */,
+				05F948501B44322500F01B36 /* CBChipNode.h */,
+				05F948511B44322500F01B36 /* CBChipNode.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -178,24 +152,6 @@
 			productReference = 05303FE01B23313800FE4C82 /* Coaching Board.app */;
 			productType = "com.apple.product-type.application";
 		};
-		05303FF81B23313900FE4C82 /* Coaching BoardTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 053040061B23313900FE4C82 /* Build configuration list for PBXNativeTarget "Coaching BoardTests" */;
-			buildPhases = (
-				05303FF51B23313900FE4C82 /* Sources */,
-				05303FF61B23313900FE4C82 /* Frameworks */,
-				05303FF71B23313900FE4C82 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				05303FFB1B23313900FE4C82 /* PBXTargetDependency */,
-			);
-			name = "Coaching BoardTests";
-			productName = "Coaching BoardTests";
-			productReference = 05303FF91B23313900FE4C82 /* Coaching BoardTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,10 +163,6 @@
 				TargetAttributes = {
 					05303FDF1B23313800FE4C82 = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					05303FF81B23313900FE4C82 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 05303FDF1B23313800FE4C82;
 					};
 				};
 			};
@@ -228,7 +180,6 @@
 			projectRoot = "";
 			targets = (
 				05303FDF1B23313800FE4C82 /* Coaching Board */,
-				05303FF81B23313900FE4C82 /* Coaching BoardTests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,13 +196,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		05303FF71B23313900FE4C82 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -262,30 +206,16 @@
 				05303FEC1B23313800FE4C82 /* ViewController.m in Sources */,
 				05303FE91B23313800FE4C82 /* AppDelegate.m in Sources */,
 				0530400F1B23383D00FE4C82 /* CBChipUIView.m in Sources */,
+				05F948521B44322500F01B36 /* CBChipNode.m in Sources */,
 				05D005F01B28C7C9002B09F7 /* CBDrawingView.m in Sources */,
+				055994211B42D6560041409D /* CBBoardScene.m in Sources */,
 				0530400C1B23328200FE4C82 /* CBBoardViewController.m in Sources */,
 				053040131B23471D00FE4C82 /* CBSettingsViewController.m in Sources */,
 				05303FE61B23313800FE4C82 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		05303FF51B23313900FE4C82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				053040001B23313900FE4C82 /* Coaching_BoardTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		05303FFB1B23313900FE4C82 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 05303FDF1B23313800FE4C82 /* Coaching Board */;
-			targetProxy = 05303FFA1B23313900FE4C82 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		05303FED1B23313800FE4C82 /* Main.storyboard */ = {
@@ -411,40 +341,6 @@
 			};
 			name = Release;
 		};
-		053040071B23313900FE4C82 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Coaching BoardTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coaching Board.app/Coaching Board";
-			};
-			name = Debug;
-		};
-		053040081B23313900FE4C82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Coaching BoardTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coaching Board.app/Coaching Board";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -462,15 +358,6 @@
 			buildConfigurations = (
 				053040041B23313900FE4C82 /* Debug */,
 				053040051B23313900FE4C82 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		053040061B23313900FE4C82 /* Build configuration list for PBXNativeTarget "Coaching BoardTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				053040071B23313900FE4C82 /* Debug */,
-				053040081B23313900FE4C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

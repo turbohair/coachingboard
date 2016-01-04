@@ -9,6 +9,8 @@
 #import "CBBoardViewController.h"
 #import "CBChipUIView.h"
 #import "CBDrawingView.h"
+#import <SpriteKit/SpriteKit.h>
+#import "CBBoardScene.h"
 
 @interface CBBoardViewController () {
     IBOutlet CBDrawingView *drawingView;
@@ -27,12 +29,20 @@
 //    [boardView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"FutsalPitch-1"]]];
 //    [self.view insertSubview:boardView atIndex:2];
     
+    //show all chips from plist
+    //[self showChipsOnBoard];
     
-    [self showChipsOnBoard];
+    //scene presentation
+    CBBoardScene *board = [[CBBoardScene alloc] initWithSize:CGSizeMake(768, 960) backgroundImage:[UIImage imageNamed:@"futsalPitch"]];
+    SKView *spriteView = (SKView *) self.view;
+    [spriteView presentScene: board];
     
     //drawing
     drawingView.strokeColor = [UIColor blackColor];
-    drawingView.strokeWidth = 10.0f;
+    drawingView.strokeWidth = 7.0f;
+    
+    
+    NSLog(@"%@", [board chips]);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -47,23 +57,6 @@
     [drawingView drawBezier:path];
 }
 
-- (void)showChipsOnBoard
-{
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"futsalChips" ofType:@"plist"];
-    NSArray *chips = [NSArray arrayWithContentsOfFile:filePath];
-    
-    for (NSUInteger i = 0; i < chips.count; i++) {
-        NSDictionary *chip = chips[i];
-        
-        NSString *positionString = chip[@"position"];
-        CGRect frame = CGRectFromString(positionString);
-        
-        NSString *imageName = chip[@"image"];
-        
-        CBChipUIView *chipView = [[CBChipUIView alloc] initWithFrame:frame];
-        chipView.image = [UIImage imageNamed:imageName];
-        [self.view addSubview:chipView];
-    }
-}
+
 
 @end
